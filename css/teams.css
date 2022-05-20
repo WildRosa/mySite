@@ -1,0 +1,137 @@
+#teamsForm{
+  display: none;
+  position: fixed;
+  top: 46%;
+  left: 50%;
+}
+
+#teamsName{
+  color: white;
+  font-size: 22px;
+  position: fixed;
+  list-style-image: url("img/star.png");
+  list-style-position: inside;
+  background-size: 10px;
+  position: fixed;
+  top: 25%;
+}
+.teamName{
+  line-height: 50px;
+}
+/* h2{
+  color: white;
+  text-align: center;
+  top: 160px;
+  right: 700px;
+  position: fixed;
+} */
+
+.topButtonThree{
+  position: fixed;
+  text-align: center;
+  /*margin-top: -10px;
+  margin-left: -26px;*/
+  top: 11.6%;
+  left: 25.4%;
+
+}
+.topButtonThree button{
+  font-size: 20px;
+  text-shadow:
+  1px 1px 1px silver,
+  -1px 1px 1px silver;
+  display: inline;
+  padding: 25px 105px;
+  background: #8A2BE2;
+  color: white;
+  /*border-top: 4px solid #ffff00;
+  border-left: 4px solid #ffff00;
+  border-right: 4px solid #ffff00;*/
+  /*border-top-left-radius: 4em;
+  border-top-right-radius: 4em;
+*/
+}
+.topButtonThree button:hover{
+  background: #FF69B4;
+  transition: all 1200ms ease;
+  text-shadow:
+  -1px -1px 1px silver,
+  1px -1px 1px silver;
+}
+.teams{
+  display: flex;
+
+  margin-left: -18px;
+  border-top-left-radius: 4em;
+  border-right: 4px solid #ffff00;
+  border-bottom: 4px solid #ffff00;
+}
+.settings{
+  text-align: center;
+  margin-left: -22px;
+  border-left: 4px solid #ffff00;
+  border-right: 4px solid #ffff00;
+  border-bottom: 4px solid #ffff00;
+}
+.words{
+  display: flex;
+  margin-left: -9px;
+  border-top-right-radius: 4em;
+  border-left: 4px solid #ffff00;
+  border-bottom: 4px solid #ffff00;
+
+}
+#addNewTeam{
+  position: fixed !important;
+  background-attachment: fixed;
+  top: 75%;
+  left: 42%;
+
+  padding: 0 5px;
+  border-radius: 50px 50px 50px 50px;
+  width: 250px;
+  font-size: 20px;
+  background-color: #ffff00;
+  color: #87CEFA;
+  border: 2px solid #ffff00;
+}
+#addNewTeam:hover{
+  transition: 2s;
+  transform: scale(1.2);
+}
+.UFO{
+  position: fixed;
+  background-color: #8080;
+  border: none;
+  top: -80px;
+  left:3%;
+  transform: scale(0.7);
+  padding: 8% 12%;
+  border-radius: 50%;
+  background-image: url(img/ufo.png);
+  background-repeat: no-repeat;
+
+}
+
+.UFO:hover{
+  transform: scale(0.8);
+  transition: 2s;
+}
+
+.Start{
+  position: fixed;
+  bottom: 11%;
+  left: 42%;
+  padding: 0 8px;
+  border-radius: 50px 50px 50px 50px;
+  width: 250px;
+  font-size: 20px;
+  background-color: #ffff00;
+  color: #87CEFA;
+  border: 2px solid #ffff00;
+}
+
+.Start:hover{
+  transition: 2s;
+  transform: scale(1.2);
+}

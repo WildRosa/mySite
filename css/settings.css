@@ -1,0 +1,46 @@
+#settingsForm{
+  display: none;
+  position: fixed;
+  top: 46%;
+  left: 50%;
+}
+
+#limitWord{
+  font-size: 22px;
+  color: white;
+  text-align: left;
+  top: 230px;
+  right: 930px;
+  position: fixed;
+}
+
+#ra{
+  position: fixed;
+  padding: 2em;
+  top: 230px;
+  left: 690px;
+}
+
+#textTimeLimit{
+  color: white;
+  text-align: center;
+  top: 330px;
+  right: 705px;
+  position: fixed;
+}
+
+#limitTime{
+  font-size: 22px;
+  color: white;
+  text-align: left;
+  top: 370px;
+  right: 900px;
+  position: fixed;
+}
+
+#rara{
+  position: fixed;
+  padding: 2em;
+  top: 370px;
+  left: 690px;
+}

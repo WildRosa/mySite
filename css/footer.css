@@ -1,0 +1,16 @@
+#footer{
+  background-image: url(img/git.png);
+  background-size: 30px;
+  display: block; /* Рисунок как блочный элемент */
+  width: 30px; /* Ширина рисунка в пикселах */
+  height: 30px; /* Высота рисунка */
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 1%;
+  margin-right: auto;
+}

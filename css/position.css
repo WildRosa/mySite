@@ -1,0 +1,98 @@
+#positionForm{
+  position: fixed;
+  display: none;
+  top: 46%;
+  left: 50%;
+}
+
+#topButtonTwo{
+  position: fixed;
+  text-align: center;
+  top: 11.6%;
+  left: 24.4%;
+
+}
+
+#topButtonTwo button{
+  margin-left: -4px;
+  font-size: 20px;
+  text-shadow:
+  1px 1px 1px silver,
+  -1px 1px 1px silver;
+  display: fixed;
+  padding: 25px 133px;
+  background: #8A2BE2;
+  color: white;
+  border-top: 4px solid #ffff00;
+  border-left: 2px solid #ffff00;
+  border-right: 2px solid #ffff00;
+  border-bottom: 4px solid #ffff00;
+  /*border-top-left-radius: 4em;
+  border-top-right-radius: 4em;
+*/
+}
+
+
+#topButtonTwo button:hover{
+  background: #FF69B4;
+  transition: all 1200ms ease;
+  text-shadow:
+  -1px -1px 1px silver,
+  1px -1px 1px silver;
+}
+
+#currentRound{
+  display: fixed;
+  border-top-left-radius: 4em;
+  border-right: 4px solid #ffff00;
+}
+
+#OverallStandings{
+  display: fixed;
+  border-top-right-radius: 4em;
+}
+
+#positionsTeams{
+  color: white;
+  margin: 0 3px;
+  font-size: 22px;
+  position: fixed;
+  list-style-type: none;
+  list-style-position: inside;
+  background-size: 10px;
+  position: fixed;
+  top: 25%;
+}
+
+.break{
+  width: 456%;
+  left: -25%;
+}
+
+
+.positionTeam{
+  line-height: 30px;
+}
+
+#resultRound{
+  position: fixed;
+  right: 400px;
+}
+
+#nextGame{
+  position: fixed;
+  bottom: 11%;
+  left: 42%;
+  padding: 0 8px;
+  border-radius: 50px 50px 50px 50px;
+  width: 250px;
+  font-size: 20px;
+  background-color: #ffff00;
+  color: #87CEFA;
+  border: 2px solid #ffff00;
+}
+
+#nextGame:hover{
+  transition: 2s;
+  transform: scale(1.2);
+}
