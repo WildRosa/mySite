@@ -1,19 +1,37 @@
 #rulesForm{
   display: flex;
+  align-items: center;
+  flex-flow: column;
   /* display: none; */
 }
 
-#text{
+.underLine{
+  display: block;
+  height: 100px;
+}
+
+#headRules{
   text-align: center;
-  margin-top: -60px;
-  margin-right: -350px;
+  white-space: nowrap;
+  color: white;
+}
+
+hr{
+ border-width: 2px;
+ background: #ffff00;
+ border-color: #ffff00;
+ width: 100%;
+ position: absolute;
+ left: 0;
 }
 
 #rulesAlias{
+
+  word-wrap: break-word;
   color: white;
-  margin-left: auto;
-  font-size: 16px;
-  margin-top: 100px;
+  text-align: left;
+  font-size: 15px;
+  margin-top: 3%;
 
 }
 .odd{
@@ -44,19 +62,10 @@
   transition: 2s;
   transform: scale(1.2);
 }
-hr{
-  border-width: 2px;
-  background: #ffff00;
-  border-color: #ffff00;
-  size: 51px;
-  position: relative;
-  margin-left: -4px;
-  margin-top: 3px;
-  width: 805px;
-}
+
 
 @media screen and (max-width: 399px) {
   #backToMenu{
-    left: 2%;
+    left: 16%;
   }
 }
