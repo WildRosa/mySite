@@ -1,0 +1,42 @@
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#siteName {
+  text-align: center;
+  text-shadow:
+    1px 1px white,
+    2px 2px #777;
+  color: #ffff00;
+  transition: all 1s;
+}
+
+#siteName:hover {
+  transition: 0.8s;
+  text-shadow:
+    1px 1px white,
+    2px 2px tomato;
+  color: #666699;
+}
+
+.icon {
+  background-image: url(img/moon.png);
+  vertical-align: middle;
+  background-size: 30px;
+  display: block;
+  /* Рисунок как блочный элемент */
+  width: 30px;
+  /* Ширина рисунка в пикселах */
+  height: 30px;
+  /* Высота рисунка */
+}
+
+.icon:hover {
+  background-image: url(img/moon1.png);
+  transition: 0.8s;
+}

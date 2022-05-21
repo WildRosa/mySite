@@ -1,4 +1,5 @@
-#frame{
+/* #frame{
+  display: flex;
   border: 4px solid #ffff00;
   padding: .5rem;
   border-bottom-left-radius: 5em;
@@ -17,4 +18,29 @@
 #frame::-webkit-scrollbar{
   width: 0px;
   background-color: #f9f9fd;
+} */
+
+#frame{
+  display: flex;
+  position: absolute;
+  border: 4px solid #ffff00;
+  padding: .5rem;
+  border-bottom-left-radius: 5em;
+  border-bottom-right-radius: 5em;
+  border-top-left-radius: 5em;
+  border-top-right-radius: 5em;
+  width: 75%;
+  height: 65%;
+  left: 12%;
+  top: 15%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#frame::-webkit-scrollbar{
+  width: 0px;
+  background-color: #f9f9fd;
+}
+
+@media screen and (max-width: 399px) {
+
 }

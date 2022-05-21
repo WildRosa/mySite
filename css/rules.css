@@ -1,6 +1,6 @@
 #rulesForm{
-  position: fixed;
-  display: none;
+  display: flex;
+  /* display: none; */
 }
 
 #text{
@@ -22,10 +22,15 @@
   display: block;
   padding-top: 30px;
 }
+
+
 #backToMenu{
-  position: fixed;
-  bottom: 11%;
+  display: flex;
+  position: absolute;
+  top: 85%;
   left: 42%;
+  align-items: center;
+  justify-content: center;
   padding: 0 8px;
   border-radius: 50px 50px 50px 50px;
   width: 250px;
@@ -48,4 +53,10 @@ hr{
   margin-left: -4px;
   margin-top: 3px;
   width: 805px;
+}
+
+@media screen and (max-width: 399px) {
+  #backToMenu{
+    left: 20%;
+  }
 }
