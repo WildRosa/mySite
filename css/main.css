@@ -1,0 +1,120 @@
+body{
+  background: linear-gradient(#000099, #cc00cc) fixed;
+
+}
+
+
+/*Удалить скролл*/
+/*mainForm потом убрать эту штуку*/
+#mainForm{
+  display: flex;
+  margin: auto;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8em;*/
+}
+
+.textMain{
+  display: block;
+  margin-top: 7%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#nameGame{
+  color: white;
+  margin-left: 3.5%;
+  text-align: center;
+  width: 12em;
+}
+
+
+#description {
+  color: #87CEFA;
+  text-align: center;
+  width: 14em;
+  margin-left: 14%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#siteName {
+  text-align: center;
+  text-shadow:
+    1px 1px white,
+    2px 2px #777;
+  color: #ffff00;
+  transition: all 1s;
+}
+
+#siteName:hover {
+  transition: 0.8s;
+  text-shadow:
+    1px 1px white,
+    2px 2px tomato;
+  color: #666699;
+}
+
+.icon {
+  background-image: url(img/moon.png);
+  vertical-align: middle;
+  background-size: 30px;
+  display: block;
+  /* Рисунок как блочный элемент */
+  width: 30px;
+  /* Ширина рисунка в пикселах */
+  height: 30px;
+  /* Высота рисунка */
+}
+
+.icon:hover {
+  background-image: url(img/moon1.png);
+  transition: 0.8s;
+}
+
+
+
+
+/* .mainbutton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+  .mainbutton{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+    margin-top: 2%;
+  }
+
+ .mainbutton button{
+
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 2%;
+   cursor: pointer;
+   padding: 14px 40px;
+   width: 250px;
+   border-radius: 50px 50px 50px 50px;
+   font-size: 20px;
+   background-color: #ffff00;
+   color: #87CEFA;
+   border: 2px solid #ffff00;
+ }
+
+
+
+
+.mainbutton button:hover {
+  transition: 2s;
+  transform: scale(1.2);
+}

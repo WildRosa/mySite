@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width; initial-scale=1">
+  <link href="media-queries.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <!-- <link rel="stylesheet" href="css/rules.css">
+  <link rel="stylesheet" href="css/teams.css">
+  <link rel="stylesheet" href="css/frame.css">
+  <link rel="stylesheet" href="css/position.css">
+  <link rel="stylesheet" href="/css/settings.css">
+  <link rel="stylesheet" href="/css/topic.css">
+  <link rel="stylesheet" href="/css/edit.css"> -->
+</head>
+
+<body>
+  <header>
+    <a href="#" class="icon"></a>
+    <h1 onclick="router.loadRoute('')" id="siteName">
+      Sky Alias
+    </h1>
+  </header>
+    <!--------------------------------------------------------------------------->
+  <div class="main-form" id="mainForm">
+    <span class="textMain">
+      <h2 id="nameGame">Online version of the game <br> Alias</h2>
+      <p id="description">Inspider by the board game Alias. Now you can play Alias on any device
+        with a browser.</p>
+    </div>
+    <div class="mainbutton">
+      <button onclick="openForm('teamsForm')"  type="button"  name="buttonPlay">Play</button>
+      <button onclick="openForm('rulesForm')" type="button"  name="buttonRules">Rules</button>
+    </div>
+  </div>
+
+  <div data-router-outlet>
+
+  </div>
+  <!--------------------------------------------------------------------------->
+  <!--<div class="rules-form" id="rulesForm">
+    <div class="rules-Frame" id="frame">
+      <div class="underLine">
+        <h2 id="text">How to playes Alias game <hr></h2>
+      </div>
+      <p id="rulesAlias">
+      Alias ​​or "Say otherwise" is a verbal developing team game in which the player needs to explain as much as possible while loading the download. <br>
+      For each correct word guessed, the team receives a point. The team that scores the most points wins.<br>
+      When explaining, you can not use single-root words, use translations into foreign languages ​​and clearly show the word with gestures.<br>
+      <span class="odd">Scoring</span>
+       - For guessing the word krmanda gets 1 point. For the missing word -1.<br>
+       - If the team did not have time to answer the last word - the word is not taken into account. The team gets 0 points.
+      <span class="odd">Determination of the winner</span>
+      The game continues until one of the teams scores the number of points necessary to win.
+      </p>
+    </div>
+    <button type="submit" onclick="openForm('mainForm')" id="backToMenu" name="buttonBackToMenu">Back To Menu</button>
+  </div>-->
+  <!--------------------------------------------------------------------------->
+  <!--<div class="teams-form" id="teamsForm">
+    <div class="teams-Frame" id="frame">
+      <div class="topButtonThree">
+        <button onclick="openForm('teamsForm')" type="button" name="buttonTeams" class="teams">Teams</button>
+        <button onclick="openForm('settingsForm')" type="button" name="buttonSettings" class="settings">Settings</button>
+        <button onclick="openForm('topicForm')" type="button" name="buttonWord" class="words">Words</button>
+      </div>
+      <h2>List of teams:</h2>
+      <ul id="teamsName">
+        <li class="teamName">Team "Kittens"</li>
+        <li class="teamName">Team "Scooby-doo" </li>
+        <li class="teamName">Team "Scooby-doo" </li>
+        <li class="teamName">Team "Scooby-doo" </li>
+        <li class="teamName">Team "Scooby-doo" </li>
+      </ul>
+      <button type="button" id="addNewTeam" name="buttonAddTeams">Add new team</button>
+    </div>
+    <button onclick="openForm('rulesForm')" type="button" class="UFO" name="buttonUfo"></button>
+    <button type="button" class="Start" name="buttonStart">Start</button>
+  </div>
+-->
+  <!--------------------------------------------------------------------------->
+  <!--<div class="position-form" id="positionForm">
+    <div class="position-Frame" id="frame">
+      <div class="top-button" id="topButtonTwo">
+          <button type="button" name="buttonCurrentRound" id="currentRound">Current round</button>
+          <button type="button" name="buttonOverallStandings" id="OverallStandings">Overall standings</button>
+      </div>
+      <ul id="positionsTeams">
+        <li class="positionTeam">Team "Kittens" <output name="result" id="resultRound">0</output></li>
+        <hr class="break">
+        <li class="positionTeam">Team "Scooby-doo" <output name="result" id="resultRound">0</output> </li>
+        <hr class="break">
+      </ul>
+      <button type="button" name="buttonNextGame" id="nextGame">To the next game</button>
+    </div>
+  </div>-->
+  <!--------------------------------------------------------------------------->
+  <!--<div class="settings-form" id="settingsForm">
+    <div class="settings-Frame" id="frame">
+      <div class="topButtonThree">
+        <button onclick="openForm('teamsForm')" type="button" name="buttonTeams" class="teams">Teams</button>
+        <button onclick="openForm('settingsForm')" type="button" name="buttonSettings" class="settings">Settings</button>
+        <button onclick="openForm('topicForm')" type="button" name="buttonWord" class="words">Words</button>
+      </div>
+      <form oninput="result.value=parseInt(word.value)">
+       <h2>Word limit:</h2>
+       <p id="limitWord">needen to win: <output name="result" id="resultWord">50</output></p>
+       <input type="range" min="10" max="100" name="word" value="50" id="ra" />
+      </form>
+
+      <form oninput="result.value=parseInt(time.value)">
+       <h2 id="textTimeLimit">Time limit:</h2>
+       <p id="limitTime">needen to win: <output name="result" id="resultTime">60</output> sec</p>
+       <input type="range" min="10" max="180" name="time" value="60" id="rara" />
+      </form>
+
+    </div>
+    <button onclick="openForm('rulesForm')" type="button" class="UFO" name="buttonUfo"></button>
+    <button type="button" class="Start" name="buttonStart">Start</button>
+  </div>-->
+  <!--------------------------------------------------------------------------->
+  <!--x<div class="topic-form" id="topicForm">
+    <div class="topic-Frame" id="frame">
+      <div class="topButtonThree">
+        <button onclick="openForm('teamsForm')" type="button" name="buttonTeams" class="teams">Teams</button>
+        <button onclick="openForm('settingsForm')" type="button" name="buttonSettings" class="settings">Settings</button>
+        <button onclick="openForm('topicForm')" type="button" name="buttonWord" class="words">Words</button>
+      </div>
+      <h2>Categories:</h2>
+    </div>
+    <div id="categories">
+      <div class="nameCategories">
+        <output name="numeberOfWord" id="numberWord">14</output>
+        <h3 class="categoriesWord">Quick game</h3>
+        <p class="categoriesWord">Cake, lemon, car</p>
+      </div>
+    </div>
+      <div class="bottomButtonThree">
+        <button type="button" name="buttonEdit" id="edit">Edit</button>
+        <button type="button" name="buttonCreate" id="create">Create</button>
+        <button type="button" name="buttonDelete" id="delete">Delete</button>
+      </div>
+      <button onclick="openForm('rulesForm')" type="button" class="UFO" name="buttonUfo"></button>
+      <button type="button" class="Start" name="buttonStart">Start</button>
+  </div>-->
+  <!--------------------------------------------------------------------------->
+  <!--<div class="edit-form" id="editForm">
+    <div class="edit-Frame" id="frame">
+      <h2 id="category">Category:</h2>
+      <input type="text" name="editName" id="editName">
+      <h2 id="words">Words:</h2>
+      <form class="editWord" id="editForma" action="index.html" method="post">
+        <ul id="editWordForm">
+          <li><input type="text" name="editWord" class="editWord"></li>
+          <li><input type="text" name="editWord" class="editWord"></li>
+        </ul>
+
+      </form>
+    </div>
+    <button onclick="openForm('rulesForm')" type="button" class="UFO" name="buttonUfo"></button>
+    <button type="button" class="Start" name="buttonStart">Start</button>
+  </div>-->
+  <!--------------------------------------------------------------------------->
+  <script src="../js/router.js" type="text/javascript"></script>
+  <script src="../js/routes.js" type="text/javascript"></script>
+  <script src="../js/index.js" type="text/javascript"></script>
+  <script>
+    {
+      var elem = document.getElementById('mainForm');
+    }
+    function openForm(formName){
+      closeForm(formName);
+      document.getElementById(formName).style.display="block";
+    }
+    function closeForm(formName){
+      elem.style.display="none";
+      elem = document.getElementById(formName);
+      /*document.getElementById(formName).style.display="none";*/
+    }
+    function currentCloseForm(){
+      elem.style.display="none";
+
+    }
+  </script>
+  <!--------------------------------------------------------------------------->
+  <footer>
+    <a id="footer" href="https://github.com/"></a>
+  </footer>
+</body>
+
+</html>
