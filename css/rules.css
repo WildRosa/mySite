@@ -66,10 +66,14 @@ hr{
 
 @media screen and (max-width: 399px) {
   #backToMenu{
-    left: 16%;
+    left: 18%;
   }
 
   #headRules{
     font-size: 1.3em;
+  }
+
+  #rulesAlias{
+    text-align: center;
   }
 }
