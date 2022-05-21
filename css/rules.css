@@ -68,4 +68,8 @@ hr{
   #backToMenu{
     left: 16%;
   }
+
+  #headRules{
+    font-size: 1.3em;
+  }
 }
