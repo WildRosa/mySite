@@ -89,6 +89,8 @@ header {
   align-items: center;
 } */
 
+
+
   .mainbutton{
     display: flex;
     flex-direction: column;
@@ -117,4 +119,11 @@ header {
 .mainbutton button:hover {
   transition: 2s;
   transform: scale(1.2);
+}
+
+@media screen and (min-width: 360px) {
+  #mainForm{
+    margin-top: 15%;
+
+  }
 }
