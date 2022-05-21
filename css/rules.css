@@ -45,7 +45,7 @@
   transform: scale(1.2);
 }
 hr{
-  border-width: 3px;
+  border-width: 2px;
   background: #ffff00;
   border-color: #ffff00;
   size: 51px;
@@ -57,6 +57,6 @@ hr{
 
 @media screen and (max-width: 399px) {
   #backToMenu{
-    left: 20%;
+    left: 2%;
   }
 }
