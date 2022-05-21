@@ -76,4 +76,8 @@ hr{
   #rulesAlias{
     text-align: center;
   }
+
+  .odd{
+    padding-top: 10px;
+  }
 }
