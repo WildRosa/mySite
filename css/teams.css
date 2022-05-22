@@ -1,11 +1,11 @@
-#teamsForm{
-  display: none;
-  position: fixed;
+#teamsForm {
+  position: flex;
+  width: 100%;
   top: 46%;
   left: 50%;
 }
 
-#teamsName{
+#teamsName {
   color: white;
   font-size: 22px;
   position: fixed;
@@ -13,33 +13,30 @@
   list-style-position: inside;
   background-size: 10px;
   position: fixed;
-  top: 25%;
+  top: 15%;
 }
-.teamName{
+
+.teamName {
   line-height: 50px;
 }
-/* h2{
-  color: white;
-  text-align: center;
-  top: 160px;
-  right: 700px;
-  position: fixed;
-} */
 
-.topButtonThree{
-  position: fixed;
+.topButtonThree {
+  position: absolute;
+  width: 100%;
+  display: block;
+  white-space: nowrap;
   text-align: center;
+  bottom: 84%;
+  right: 1%;
   /*margin-top: -10px;
   margin-left: -26px;*/
-  top: 11.6%;
-  left: 25.4%;
-
 }
-.topButtonThree button{
+
+.topButtonThree button {
   font-size: 20px;
   text-shadow:
-  1px 1px 1px silver,
-  -1px 1px 1px silver;
+    1px 1px 1px silver,
+    -1px 1px 1px silver;
   display: inline;
   padding: 25px 105px;
   background: #8A2BE2;
@@ -51,42 +48,44 @@
   border-top-right-radius: 4em;
 */
 }
-.topButtonThree button:hover{
+
+.topButtonThree button:hover {
   background: #FF69B4;
   transition: all 1200ms ease;
   text-shadow:
-  -1px -1px 1px silver,
-  1px -1px 1px silver;
+    -1px -1px 1px silver,
+    1px -1px 1px silver;
 }
-.teams{
-  display: flex;
 
-  margin-left: -18px;
+.teams {
+  width: 33.3%;
   border-top-left-radius: 4em;
   border-right: 4px solid #ffff00;
   border-bottom: 4px solid #ffff00;
 }
-.settings{
+
+.settings {
+  width: 38%;
   text-align: center;
   margin-left: -22px;
   border-left: 4px solid #ffff00;
   border-right: 4px solid #ffff00;
   border-bottom: 4px solid #ffff00;
 }
-.words{
-  display: flex;
+
+.words {
+  width: 32%;
   margin-left: -9px;
   border-top-right-radius: 4em;
   border-left: 4px solid #ffff00;
   border-bottom: 4px solid #ffff00;
-
 }
-#addNewTeam{
+
+#addNewTeam {
   position: fixed !important;
   background-attachment: fixed;
   top: 75%;
   left: 42%;
-
   padding: 0 5px;
   border-radius: 50px 50px 50px 50px;
   width: 250px;
@@ -95,30 +94,31 @@
   color: #87CEFA;
   border: 2px solid #ffff00;
 }
-#addNewTeam:hover{
+
+#addNewTeam:hover {
   transition: 2s;
   transform: scale(1.2);
 }
-.UFO{
+
+.UFO {
   position: fixed;
   background-color: #8080;
   border: none;
   top: -80px;
-  left:3%;
+  left: 3%;
   transform: scale(0.7);
   padding: 8% 12%;
   border-radius: 50%;
   background-image: url(img/ufo.png);
   background-repeat: no-repeat;
-
 }
 
-.UFO:hover{
+.UFO:hover {
   transform: scale(0.8);
   transition: 2s;
 }
 
-.Start{
+.Start {
   position: fixed;
   bottom: 11%;
   left: 42%;
@@ -131,7 +131,41 @@
   border: 2px solid #ffff00;
 }
 
-.Start:hover{
+.Start:hover {
   transition: 2s;
   transform: scale(1.2);
+}
+
+@media screen and (max-width: 399px) {
+  .teams {
+    position: relative;
+    margin-left: -21px;
+    margin-right: -18px;
+    z-index: 1;
+    border-right: 4px solid #ffff00;
+  }
+
+  .topButtonThree {
+    bottom: 88%;
+
+  }
+
+  .settings {
+    margin-right: -21px;
+    position: relative;
+    border: none;
+    z-index: 0;
+    border-bottom: 4px solid #ffff00;
+    border-right: 4px solid #ffff00;
+  }
+
+  .words {
+  margin-right: -12px;
+
+  }
+
+  .topButtonThree button {
+    padding: 25px 58px;
+    font-size: 12px;
+  }
 }

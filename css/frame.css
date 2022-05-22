@@ -21,6 +21,7 @@
 } */
 
 #frame{
+
   overflow: auto;
   word-wrap: break-word;
   flex-flow: column;
