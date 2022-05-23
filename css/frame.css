@@ -37,7 +37,7 @@
   height: 65%;
   left: 12%;
   top: 15%;
-  overflow-y: scroll;
+  overflow-y: hidden;
   overflow-x: hidden;
 }
 #frame::-webkit-scrollbar{

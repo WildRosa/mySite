@@ -1,3 +1,4 @@
+/* yes */
 #teamsForm {
   position: flex;
   width: 100%;
@@ -5,21 +6,31 @@
   left: 50%;
 }
 
+/* yes */
+#listOfTeams{
+  margin-top: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+}
+
+/* yes */
 #teamsName {
   color: white;
   font-size: 22px;
-  position: fixed;
   list-style-image: url("img/star.png");
   list-style-position: inside;
   background-size: 10px;
-  position: fixed;
-  top: 15%;
+  margin-bottom: 45%;
 }
 
+/* yes */
 .teamName {
   line-height: 50px;
 }
 
+/* yes */
 .topButtonThree {
   position: absolute;
   width: 100%;
@@ -32,6 +43,7 @@
   margin-left: -26px;*/
 }
 
+/* yes */
 .topButtonThree button {
   font-size: 20px;
   text-shadow:
@@ -49,6 +61,7 @@
 */
 }
 
+/* yes */
 .topButtonThree button:hover {
   background: #FF69B4;
   transition: all 1200ms ease;
@@ -57,6 +70,7 @@
     1px -1px 1px silver;
 }
 
+/* yes */
 .teams {
   width: 33.3%;
   border-top-left-radius: 4em;
@@ -64,6 +78,7 @@
   border-bottom: 4px solid #ffff00;
 }
 
+/* yes */
 .settings {
   width: 38%;
   text-align: center;
@@ -73,7 +88,9 @@
   border-bottom: 4px solid #ffff00;
 }
 
+/* yes */
 .words {
+
   width: 32%;
   margin-left: -9px;
   border-top-right-radius: 4em;
@@ -81,11 +98,10 @@
   border-bottom: 4px solid #ffff00;
 }
 
+
 #addNewTeam {
-  position: fixed !important;
-  background-attachment: fixed;
-  top: 75%;
-  left: 42%;
+  display: block;
+  margin-bottom: 62%;
   padding: 0 5px;
   border-radius: 50px 50px 50px 50px;
   width: 250px;
@@ -139,7 +155,7 @@
 @media screen and (max-width: 399px) {
   .teams {
     position: relative;
-    margin-left: -21px;
+    margin-left: -12px;
     margin-right: -18px;
     z-index: 1;
     border-right: 4px solid #ffff00;
@@ -151,7 +167,7 @@
   }
 
   .settings {
-    margin-right: -21px;
+    margin-right: -12px;
     position: relative;
     border: none;
     z-index: 0;
@@ -160,12 +176,23 @@
   }
 
   .words {
-  margin-right: -12px;
-
+  width: auto;
+  margin-right: -7px;
+  margin-left: -25px;
   }
 
   .topButtonThree button {
-    padding: 25px 58px;
-    font-size: 12px;
+    padding: 25px 60px;
+    font-size: 14px;
   }
+
+  #listOfTeams{
+    margin-top: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+  }
+
+
 }
