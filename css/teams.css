@@ -26,9 +26,17 @@
 }
 
 /* yes */
-.teamName {
+#teamsName li{
   line-height: 50px;
 }
+
+input{
+  background-color: transparent;
+  color: white;
+  border-color: yellow;
+}
+
+
 
 /* yes */
 .topButtonThree {
@@ -99,9 +107,11 @@
 }
 
 
+/* yes */
 #addNewTeam {
-  display: block;
-  margin-bottom: 62%;
+  position: absolute;
+  top: 85%;
+  left: 39%;
   padding: 0 5px;
   border-radius: 50px 50px 50px 50px;
   width: 250px;
@@ -111,17 +121,24 @@
   border: 2px solid #ffff00;
 }
 
+/* yes */
 #addNewTeam:hover {
   transition: 2s;
   transform: scale(1.2);
 }
 
 .UFO {
-  position: fixed;
+  background-size: 100%;
+  display: flex;
+  position: absolute;
   background-color: #8080;
   border: none;
-  top: -80px;
-  left: 3%;
+  bottom: 74%;
+  right: 80%;
+  white-space: nowrap;
+  background-position: center;
+
+
   transform: scale(0.7);
   padding: 8% 12%;
   border-radius: 50%;
@@ -134,8 +151,11 @@
   transition: 2s;
 }
 
+/* yes */
 .Start {
-  position: fixed;
+
+  position: absolute;
+  text-align: center;
   bottom: 11%;
   left: 42%;
   padding: 0 8px;
@@ -147,6 +167,7 @@
   border: 2px solid #ffff00;
 }
 
+/* yes */
 .Start:hover {
   transition: 2s;
   transform: scale(1.2);
@@ -187,12 +208,33 @@
   }
 
   #listOfTeams{
+    margin-left: 7%;
     margin-top: 22%;
     display: flex;
     align-items: center;
     justify-content: center;
     color:white;
   }
+
+  #addNewTeam {
+    position: absolute;
+    top: 89%;
+    left: 28%;
+    width: 150px;
+
+  }
+
+  .Start{
+    width: 150px;
+    left: 35%;
+}
+
+.UFO{
+  transform: scale(1.4);
+  background-size: 100%;
+  bottom: 85%;
+  left: 40%;
+}
 
 
 }
