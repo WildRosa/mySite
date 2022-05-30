@@ -1,0 +1,74 @@
+
+.underLine{
+  height: 100px;
+}
+
+#headRules{
+  text-align: center;
+  white-space: nowrap;
+  color: white;
+}
+
+hr{
+ border-width: 2px;
+ background: #ffff00;
+ border-color: #ffff00;
+ width: 100%;
+ position: absolute;
+ left: 0;
+}
+
+#rulesAlias{
+  word-wrap: break-word;
+  color: white;
+  text-align: left;
+  font-size: 15px;
+  margin-top: 3%;
+
+}
+.odd{
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  padding-top: 30px;
+}
+
+#backToMenu{
+  position: absolute;
+  top: 85%;
+  left: 43%;
+  text-align: center;
+  text-decoration: none;
+  padding: 12 40px;
+  border-radius: 50px 50px 50px 50px;
+  width: 220px;
+  font-size: 24px;
+  background-color: #ffff00;
+  color: #87CEFA;
+  border: 2px solid #ffff00;
+}
+
+#backToMenu:hover{
+  transition: 2s;
+  transform: scale(1.2);
+}
+
+
+@media screen and (max-width: 399px) {
+  #backToMenu{
+    left: 23%;
+  }
+
+  #headRules{
+    font-size: 1.3em;
+  }
+
+  #rulesAlias{
+    text-align: center;
+  }
+
+  .odd{
+    padding-top: 10px;
+  }
+
+}

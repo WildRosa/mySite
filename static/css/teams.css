@@ -1,0 +1,193 @@
+#listOfTeams{
+  margin-top: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+
+}
+
+#teamsName {
+  color: white;
+  font-size: 22px;
+  list-style-image: url("img/star.png");
+  list-style-position: inside;
+  background-size: 10px;
+  margin-bottom: 39%;
+}
+
+#teamsName li{
+  width: 250px;
+  line-height: 50px;
+}
+
+input{
+  background-color: transparent;
+  color: white;
+  border-color: yellow;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 30px;
+
+  width: 170px;
+  /* margin-bottom: 20px; */
+
+}
+
+.topButtonThree {
+  position: absolute;
+  width: 100%;
+  display: block;
+  font-family: sans-serif;
+
+  white-space: nowrap;
+  text-align: center;
+  bottom: 90%;
+  right: 1%;
+}
+
+.topButtonThree a {
+  text-decoration: none;
+  margin-left: -4px;
+  font-size: 24px;
+  text-shadow:
+    1px 1px 1px silver,
+    -1px 1px 1px silver;
+  display: inline;
+  padding: 25px 165px;
+  background: #8A2BE2;
+  color: white;
+}
+
+
+.topButtonThree a:hover {
+  background: #FF69B4;
+  transition: all 1200ms ease;
+  text-shadow:
+    -1px -1px 1px silver,
+    1px -1px 1px silver;
+}
+
+.teams {
+  border-top-left-radius: 4em;
+  border-right: 4px solid #ffff00;
+  border-bottom: 4px solid #ffff00;
+}
+
+
+.settings {
+  border-bottom: 4px solid #ffff00;
+}
+
+
+.words {
+  border-top-right-radius: 4em;
+  border-left: 4px solid #ffff00;
+  border-bottom: 4px solid #ffff00;
+}
+
+#addNewTeam {
+  position: absolute;
+  top: 85%;
+  left: 39%;
+  padding: 0 5px;
+  border-radius: 50px 50px 50px 50px;
+  width: 270px;
+  font-size: 20px;
+  background-color: #ffff00;
+  color: #87CEFA;
+  border: 2px solid #ffff00;
+}
+
+
+#addNewTeam:hover {
+  transition: 2s;
+  transform: scale(1.2);
+}
+
+.UFO {
+  background-size: 100%;
+  position: absolute;
+  background-color: #8080;
+  border: none;
+  bottom: 74%;
+  right: 80%;
+  background-position: center;
+  transform: scale(0.7);
+  padding: 8% 12%;
+  border-radius: 50%;
+  background-image: url(img/ufo.png);
+  background-repeat: no-repeat;
+}
+
+.UFO:hover {
+  transform: scale(0.8);
+  transition: 2s;
+}
+
+
+.Start {
+  position: absolute;
+  text-align: center;
+  bottom: 11%;
+  margin-left: 41%;
+  text-decoration: none;
+  padding: 0 8px;
+  border-radius: 50px 50px 50px 50px;
+  width: 250px;
+  font-size: 24px;
+  background-color: #ffff00;
+  color: #87CEFA;
+  border: 2px solid #ffff00;
+}
+
+
+.Start:hover {
+  transition: 2s;
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 399px) {
+
+  .topButtonThree {
+    bottom: 92%;
+    left: 4px;
+  }
+
+  .topButtonThree a {
+    padding: 17px 18px;
+    font-size: 20px;
+  }
+
+  #listOfTeams{
+    margin-left: 7%;
+    margin-top: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+  }
+
+  #addNewTeam {
+    position: absolute;
+    top: 89%;
+    left: 28%;
+    width: 150px;
+
+  }
+
+  .Start{
+    width: 150px;
+    margin-left: 30%;
+}
+
+.UFO{
+
+  transform: scale(1.3);
+  background-size: 100%;
+  bottom: 84%;
+  left: 40%;
+}
+
+}

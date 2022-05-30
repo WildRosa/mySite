@@ -1,0 +1,156 @@
+#winner{
+  color: white;
+  margin-top: 80px;
+  margin-left: 500px;
+}
+
+#topButtonTwo{
+  position: absolute;
+  display: block;
+  white-space: nowrap;
+  bottom: 84%;
+  right: 80%;
+}
+
+#topButtonTwo button{
+  display: inline;
+  font-size: 20px;
+  text-shadow:
+  1px 1px 1px silver,
+  -1px 1px 1px silver;
+  padding: 25px 85%;
+  background: #8A2BE2;
+  color: white;
+  border-top: 4px solid #ffff00;
+  border-left: 2px solid #ffff00;
+  border-right: 2px solid #ffff00;
+  border-bottom: 4px solid #ffff00;
+}
+
+
+#topButtonTwo button:hover{
+  background: #FF69B4;
+  transition: all 1200ms ease;
+  text-shadow:
+  -1px -1px 1px silver,
+  1px -1px 1px silver;
+}
+
+
+#currentRound{
+  border-top-left-radius: 4em;
+  border-right: 4px solid #ffff00;
+}
+
+
+#OverallStandings{
+  margin-left: -4px;
+  border-top-right-radius: 4em;
+}
+
+#positionsTeams li:after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 96%;
+    margin: -3px;
+    background: #ffff00;
+}
+
+
+#positionsTeams li{
+  line-height: 50px;
+}
+
+
+#positionsTeams{
+
+  margin-top: 10%;
+  list-style-image: url("img/star.png");
+  list-style-position: inside;
+  color: white;
+  font-size: 22px;
+  background-size: 10px;
+  font-synthesis: none;
+  font-family: monospace;
+}
+
+
+
+#nextGame{
+  margin-left: 610px;
+  margin-top: 530px;
+  padding: 0 8px;
+  border-radius: 50px 50px 50px 50px;
+  width: 250px;
+  font-size: 20px;
+  background-color: #ffff00;
+  color: #87CEFA;
+  border: 2px solid #ffff00;
+}
+
+#nextGame:hover{
+  transition: 2s;
+  transform: scale(1.2);
+}
+
+
+
+@media screen and (max-width: 399px) {
+
+  #nextGame{
+    width: 190px;
+    margin-top: 550px;
+    margin-left: 100px;
+  }
+
+  #positionsTeams li:after {
+      width: 101%;
+
+  }
+
+  #positionsTeams{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 40px;
+    white-space: nowrap;
+    transform: scale(0.9);
+  }
+
+  #topButtonTwo{
+
+    position: absolute;
+    display: block;
+    white-space: nowrap;
+    bottom: 87%;
+    right: 15.8%;
+  }
+
+  #currentRound{
+    position: fixed;
+    z-index: 1;
+    margin-right: -18px;
+  }
+
+
+  #topButtonTwo button{
+    position: relative;
+    transform: scale(0.9);
+    padding: 20px 5.2%;
+
+  }
+
+  #OverallStandings{
+
+    position: fixed;
+    z-index: 0;
+
+  }
+
+  #winner{
+    color: white;
+    margin-top: 460px;
+    margin-left: 70px;
+  }
+
+}

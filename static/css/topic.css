@@ -1,0 +1,149 @@
+#textCategories{
+  color: white;
+  margin-left: 520px;
+  margin-top: 10%;
+
+}
+
+#categories{
+  margin-left: 190px;
+  height: 40%;
+  overflow: auto;
+
+}
+
+#categories div{
+  width: 80%;
+  margin-top: 10px;
+}
+
+.bottomButtonThree{
+
+  width: 100%;
+  white-space: nowrap;
+  margin-top: 60px;
+  margin-left: -5px;
+
+}
+.bottomButtonThree a{
+  text-decoration: none;
+  margin-left: -4px;
+  font-size: 24px;
+  font-family: sans-serif;
+  text-shadow:
+    1px 1px 1px silver,
+    -1px 1px 1px silver;
+  padding: 25px 169px;
+  background: #8A2BE2;
+  color: white;
+
+}
+
+.bottomButtonThree button{
+  text-decoration: none;
+  margin-left: -4px;
+  font-size: 24px;
+  text-shadow:
+    1px 1px 1px silver,
+    -1px 1px 1px silver;
+  padding: 25px 169px;
+  background: #8A2BE2;
+  color: white;
+
+}
+
+.bottomButtonThree button:hover{
+  background: #FF69B4;
+  transition: all 1200ms ease;
+  text-shadow:
+  -1px -1px 1px silver,
+  1px -1px 1px silver;
+}
+
+.bottomButtonThree a:hover{
+  background: #FF69B4;
+  transition: all 1200ms ease;
+  text-shadow:
+  -1px -1px 1px silver,
+  1px -1px 1px silver;
+}
+
+#edit{
+  border-right: 4px solid #ffff00;
+  border-top: 4px solid #ffff00;
+}
+
+#create{
+  border-top: 4px solid #ffff00;
+}
+
+#delete{
+  border-left: 4px solid #ffff00;
+  border-top: 4px solid #ffff00;
+  cursor: pointer;
+}
+
+.nameCategories{
+  top: 230px;
+  left: 400px;
+  width: 350px;
+  border-bottom: 3px solid #ffff00;
+  border-top: 3px solid #ffff00;
+  border-left: 3px solid #ffff00;
+  border-right: 3px solid #ffff00;
+}
+
+#numberWord{
+  margin-left: 690px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.categoriesWord{
+  color: white;
+  font-size: 18px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+
+@media screen and (max-width: 399px){
+  #textCategories{
+    margin-top: 21%;
+    margin-left: 32%;
+  }
+
+  .bottomButtonThree a {
+      padding: 17px 24px;
+      font-size: 20px;
+    }
+
+  .bottomButtonThree {
+      margin-top: 34px;
+      margin-left: 1px;
+    }
+
+  .bottomButtonThree button{
+    padding: 17px 24px;
+    font-size: 20px;
+  }
+
+
+  #categories{
+  height: 60%;
+  margin-left: 50px;
+  }
+
+  #numberWord{
+    margin-left: 160px;
+
+  }
+
+  .categoriesWord{
+    margin-bottom: 1px;
+  }
+
+
+
+}

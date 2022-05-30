@@ -1,0 +1,89 @@
+body{
+  background: linear-gradient(#000099, #cc00cc) fixed;
+
+}
+
+.textMain{
+  margin-top: 7%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#nameGame{
+  color: white;
+  margin-left: 40%;
+  text-align: center;
+  width: 12em;
+}
+
+
+#description {
+  color: #87CEFA;
+  text-align: center;
+  width: 14em;
+  margin-left: 42%;
+}
+
+
+  .mainbutton{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 41%;
+    margin-top: 5%;
+  }
+
+ .mainbutton a{
+   text-align: center;
+   text-decoration: none;
+   margin-top: 14%;
+   cursor: pointer;
+   padding: 12px 40px;
+   width: 170px;
+   border-radius: 50px 50px 50px 50px;
+   font-size: 24px;
+   background-color: #ffff00;
+   color: #87CEFA;
+   border: 2px solid #ffff00;
+ }
+
+ .mainbutton button{
+   margin-top: 14%;
+   cursor: pointer;
+   padding: 14px 40px;
+   width: 250px;
+   border-radius: 50px 50px 50px 50px;
+   font-size: 20px;
+   background-color: #ffff00;
+   color: #87CEFA;
+   border: 2px solid #ffff00;
+ }
+
+.mainbutton  a:hover {
+  transition: 2s;
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 399px) {
+  #mainForm{
+    margin-top: 12%;
+  }
+
+  #nameGame{
+  margin-left: 14%;
+  margin-top: 20%;
+  }
+
+  #description{
+    margin-left: 20%;
+  }
+  .mainbutton{
+    margin-left: 16%;
+    margin-top: 25%;
+  }
+
+  .mainbutton a{
+    margin-top: 9%;
+  }
+}

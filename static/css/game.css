@@ -1,0 +1,122 @@
+#wordForGame {
+  color: white;
+  margin-left: 500px;
+  margin-right: auto;
+  font-size: 35px;
+  margin-top: 15%;
+}
+
+#timer {
+  color: white;
+  margin-top: -200px;
+  margin-left: 900px;
+}
+
+#score {
+  color: white;
+  margin-top: -41px;
+  margin-left: 780px;
+}
+
+#startGame {
+  position: absolute;
+  text-align: center;
+  bottom: 11%;
+  margin-left: 41%;
+  text-decoration: none;
+  padding: 0 8px;
+  border-radius: 50px 50px 50px 50px;
+  width: 250px;
+  font-size: 24px;
+  background-color: #ffff00;
+  color: #87CEFA;
+  border: 2px solid #ffff00;
+}
+
+#startGame:hover {
+  transition: 2s;
+  transform: scale(1.2);
+}
+
+#pass:hover {
+  transition: 2s;
+  transform: scale(1.1);
+}
+
+#pass {
+  position: absolute;
+  text-align: center;
+  bottom: 51%;
+  margin-left: 13%;
+  border: none;
+  padding: 40px;
+  border-radius: 50%;
+  white-space: pre;
+  font-size: 20px;
+  background-color: #ffff00;
+  color: #87CEFA;
+  border: 2px solid #ffff00;
+}
+
+#guessed {
+  position: absolute;
+  text-align: center;
+  bottom: 51%;
+  margin-left: 76%;
+  border: none;
+  padding: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: #ffff00;
+  color: #87CEFA;
+  border: 2px solid #ffff00;
+}
+
+#guessed:hover {
+  transition: 2s;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 399px) {
+  #wordForGame {
+    margin-top: 75%;
+    margin-left: 110px;
+  }
+
+  #pass {
+    transform: scale(0.7);
+    bottom: 65%;
+    left: 21%;
+  }
+
+  #guessed {
+    transform: scale(0.7);
+    right: 27%;
+    bottom: 20%;
+  }
+
+  #startGame {
+    width: 150px;
+    margin-left: 130px;
+  }
+
+  #timer {
+    margin-left: 90px;
+    margin-top: -280px;
+    position: absolute;
+  }
+
+  #score {
+    margin-top: -280px;
+    margin-left: 180px;
+    position: absolute;
+  }
+
+  #pass:hover {
+    transform: scale(1);
+  }
+
+  #guessed:hover {
+    transform: scale(1);
+  }
+}
